@@ -4,15 +4,15 @@ Config = {
     -- You can disable the search option here.
     EnableSearch = true,
     -- You can disable prop dumps here.
-    EnablePropDump = true,
+    EnablePropDump = false,
     -- You can disable the emote preview feature here.
-    EnableEmotePreview = true,
+    EnableEmotePreview = false,
     -- You can disable the emote position selector on emotes with the Placement flag here.
-    EnableEmotePlacement = true,
+    EnableEmotePlacement = false,
     -- You can disable the emote binds option here.
-    EnableEmoteBinds = true,
+    EnableEmoteBinds = false,
     -- Block players from using weapons while doing an emote.
-    EnableWeaponBlock = false,
+    EnableWeaponBlock = true,
     -- Block players from aiming and shooting while doing an emote.
     EnableAimShootBlock = true,
     -- Set this to '' to disable the key.
@@ -20,7 +20,7 @@ Config = {
     -- Set this to '' to disable the key.
     HandsUpKey = 'h', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
-    StanceKey = 'c', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    StanceKey = 'rmenu', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this to '' to disable the key.
     PointKey = 'b', -- List of keys here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- Set this if you really wanna disable emotes in vehicles, if enabled they only play the upper body part of the emote.
