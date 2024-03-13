@@ -214,11 +214,11 @@ return {
         Command = 'sunbathe3',
         Scenario = 'WORLD_HUMAN_SUNBATHE',
     },
-    {
+    --[[{
         Label = 'Sunbathe Back',
         Command = 'sunbatheback',
         Scenario = 'WORLD_HUMAN_SUNBATHE_BACK',
-    },
+    },--]]
     {
         Label = 'Texting',
         Command = 'texting',

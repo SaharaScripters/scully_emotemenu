@@ -239,7 +239,7 @@ return {
         Command = 'fire3',
         Walk = 'move_m@fire',
     },
-    {
+    --[[{
         Label = 'Flee',
         Command = 'flee',
         Walk = 'move_f@flee@a',
@@ -263,7 +263,7 @@ return {
         Label = 'Flee 5',
         Command = 'flee5',
         Walk = 'move_m@flee@c',
-    },
+    },--]]
     {
         Label = 'Floyd',
         Command = 'floyd',
