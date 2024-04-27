@@ -12,6 +12,19 @@ return {
         },
     },
     {
+        Label = 'Hands in Pockets',
+        Command = 'pocket',
+        Animation = 'bz_hands',
+        Dictionary = 'bzzz@animations@hands',
+        Options = {
+            Duration = 4000,
+            Flags = {
+                Loop = true,			
+                Move = true,
+            },
+        },
+    },
+    {
         Label = 'Adjust Tie',
         Command = 'adjusttie',
         Animation = 'try_tie_positive_a',

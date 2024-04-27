@@ -1,5 +1,71 @@
 return {
     {
+        Label = 'Fire Torch',
+        Command = 'torch',
+        Animation = 'ped_a_enter_loop',
+        Dictionary = 'anim@heists@humane_labs@finale@keycards',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'bzzz_prop_torch_fire001',
+                    Placement = {
+                        vector3(0.14, 0.21, -0.08),
+                        vector3(-110.0, -1.0, -10.0),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Party Lighter',
+        Command = 'lighter',
+        Animation = 'waving_lighter',
+        Dictionary = 'samnick@lighter@wave',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'samnick_prop_lighter01',
+                    Placement = {
+                        vector3(0.11, 0.01, 0.02),
+                        vector3(-85.0, 188.0, 10.0),
+                    },
+                },
+            },
+        },
+    },
+    {
+        Label = 'Mine Lantern',
+        Command = 'minelantern',
+        Animation = 'ped_a_enter_loop',
+        Dictionary = 'anim@heists@humane_labs@finale@keycards',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'bzzz_prop_mine_light_a',
+                    Placement = {
+                        vector3(0.04, -0.56, 0.08),
+                        vector3(-102.0, -54.0, 12.0),
+                    },
+                },
+            },
+        },
+    },	
+    {
         Label = 'Airport Bag',
         Command = 'airportbag',
         Animation = 'idle',
