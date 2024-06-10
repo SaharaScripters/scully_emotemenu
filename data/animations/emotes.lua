@@ -510,7 +510,7 @@ return {
             },
         },
     },
-    {
+    --[[{
         Label = 'Clown 5',
         Command = 'clown5',
         Animation = 'clown_idle_6',
@@ -520,7 +520,7 @@ return {
                 Loop = true,
             },
         },
-    },
+    },--]]
     {
         Label = 'Come at me bro',
         Command = 'comeatmebro',

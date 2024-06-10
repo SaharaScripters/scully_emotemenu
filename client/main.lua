@@ -728,7 +728,7 @@ function initCloneEmote(data)
                     for i = 1, #propList do
                         local prop = propList[i]
 
-                        lib.requestModel(prop.hash, 1000)
+                        lib.requestModel(prop.hash, 10000)
 
                         local object = CreateObject(prop.hash, clonePos.x, clonePos.y, clonePos.z, false, false, false)
                         SetEntityCollision(object, false, false)
@@ -962,7 +962,7 @@ function startPlacementThread(data)
                     for i = 1, #propList do
                         local prop = propList[i]
 
-                        lib.requestModel(prop.hash, 1000)
+                        lib.requestModel(prop.hash, 10000)
 
                         local object = CreateObject(prop.hash, clonePos.x, clonePos.y, clonePos.z, false, false, false)
                         SetEntityCollision(object, false, false)

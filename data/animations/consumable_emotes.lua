@@ -452,111 +452,6 @@ return {
         },
     },
     {
-        Label = 'Candy Cane Red',
-        Command = 'candycane',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_food_xmas_lollipop_a',
-                    Placement = {
-                        vector3(-0.030000, 0.018000, 0.000000),
-                        vector3(220.000000, 180.000000, -88.098999),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Candy Cane Green',
-        Command = 'candycaneb',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_food_xmas_lollipop_b',
-                    Placement = {
-                        vector3(-0.030000, 0.018000, 0.000000),
-                        vector3(220.000000, 180.000000, -88.098999),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Candy Cane Purple',
-        Command = 'candycanec',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_food_xmas_lollipop_c',
-                    Placement = {
-                        vector3(-0.030000, 0.018000, 0.000000),
-                        vector3(220.000000, 180.000000, -88.098999),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Candy Cane Yellow',
-        Command = 'candycaned',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_food_xmas_lollipop_d',
-                    Placement = {
-                        vector3(-0.030000, 0.018000, 0.000000),
-                        vector3(220.000000, 180.000000, -88.098999),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Candy Cane Blue',
-        Command = 'candycanee',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_food_xmas_lollipop_e',
-                    Placement = {
-                        vector3(-0.030000, 0.018000, 0.000000),
-                        vector3(220.000000, 180.000000, -88.098999),
-                    },
-                },
-            },
-        },
-    },
-    {
         Label = 'Champagne',
         Command = 'champagne',
         Animation = 'ped_a_enter_loop',
@@ -623,27 +518,6 @@ return {
         },
     },
     {
-        Label = 'Croissant',
-        Command = 'croissant',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_foodpack_croissant001',
-                    Placement = {
-                        vector3(0.000000, 0.000000, -0.010000),
-                        vector3(0.000000, 0.000000, 90.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
         Label = 'Cup',
         Command = 'cup',
         Animation = 'idle_c',
@@ -703,48 +577,6 @@ return {
                     Placement = {
                         vector3(0.130000, 0.050000, 0.020000),
                         vector3(-50.000000, 100.000000, 270.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Donut Chocolate',
-        Command = 'donut2',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_foodpack_donut002',
-                    Placement = {
-                        vector3(0.000000, -0.030000, -0.010000),
-                        vector3(10.000000, 0.000000, -1.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Donut Raspberry',
-        Command = 'donut3',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'bzzz_foodpack_donut001',
-                    Placement = {
-                        vector3(0.000000, -0.030000, -0.010000),
-                        vector3(10.000000, 0.000000, -1.000000),
                     },
                 },
             },
@@ -852,27 +684,6 @@ return {
                     Placement = {
                         vector3(0.130000, 0.040000, 0.030000),
                         vector3(24.000000, 2.000000, 168.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Gingerbread Man',
-        Command = 'gingerbread',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = -28905,
-                    Name = 'bzzz_food_xmas_gingerbread_a',
-                    Placement = {
-                        vector3(0.16, 0.04, 0.03),
-                        vector3(18.0, 164.0, -5.0),
                     },
                 },
             },
@@ -1347,27 +1158,6 @@ return {
         },
     },
     {
-        Label = 'Macaroon',
-        Command = 'macaroon',
-        Animation = 'mp_player_int_eat_burger',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = -28905,
-                    Name = 'bzzz_food_xmas_macaroon_a',
-                    Placement = {
-                        vector3(0.15, 0.07, 0.0),
-                        vector3(38.0, 7.0, 7.0),
-                    },
-                },
-            },
-        },
-    },
-    {
         Label = 'Marshmallow Sandwhich',
         Command = 'msandwhich',
         Animation = 'mp_player_int_eat_burger',
@@ -1486,72 +1276,6 @@ return {
         },
     },
     {
-        Label = 'Pizza',
-        Command = 'pizza',
-        Animation = 'mp_player_int_eat_burger_fp',
-        Dictionary = 'mp_player_inteat@burger',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'v_res_tt_pizzaplate',
-                    Placement = {
-                        vector3(0.200000, 0.038000, 0.051000),
-                        vector3(15.000000, 155.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Red Wine',
-        Command = 'redwine',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'prop_wine_rose',
-                    Placement = {
-                        vector3(0.000000, -0.260000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Rum',
-        Command = 'rum',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'prop_rum_bottle',
-                    Placement = {
-                        vector3(0.030000, -0.180000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
         Label = 'Sandwich',
         Command = 'sandwich',
         Animation = 'mp_player_int_eat_burger',
@@ -1616,28 +1340,6 @@ return {
         },
     },
     {
-        Label = 'Tequila',
-        Command = 'tequila',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'prop_tequila_bottle',
-                    Placement = {
-                        vector3(0.000000, -0.260000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
         Label = 'Torpedo',
         Command = 'torpedo',
         Animation = 'mp_player_int_eat_burger_fp',
@@ -1654,28 +1356,6 @@ return {
                     Placement = {
                         vector3(0.100000, -0.070000, 0.091000),
                         vector3(15.000000, 135.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Vodka',
-        Command = 'vodka',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'prop_vodka_bottle',
-                    Placement = {
-                        vector3(0.000000, -0.260000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
                     },
                 },
             },
@@ -1720,113 +1400,6 @@ return {
                     Placement = {
                         vector3(0.000000, 0.000000, -0.100000),
                         vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Whiskey',
-        Command = 'whiskey',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 60309,
-                    Name = 'prop_cs_whiskey_bottle',
-                    Placement = {
-                        vector3(0.000000, 0.000000, 0.000000),
-                        vector3(0.000000, 0.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'White Wine',
-        Command = 'whitewine',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Loop = true,
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = 18905,
-                    Name = 'prop_wine_white',
-                    Placement = {
-                        vector3(0.000000, -0.260000, 0.100000),
-                        vector3(240.000000, -60.000000, 0.000000),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Xmas Mug - Tea',
-        Command = 'xmasmug',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = -28905,
-                    Name = 'bzzz_food_xmas_mug_a',
-                    Placement = {
-                        vector3(0.09, -0.01, 0.08),
-                        vector3(-44.0, 137.0, 9.0),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Xmas Mug - Coffee',
-        Command = 'xmasmug2',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = -28905,
-                    Name = 'bzzz_food_xmas_mug_b',
-                    Placement = {
-                        vector3(0.09, -0.01, 0.08),
-                        vector3(-44.0, 137.0, 9.0),
-                    },
-                },
-            },
-        },
-    },
-    {
-        Label = 'Xmas Mulled Wine',
-        Command = 'xmaswine',
-        Animation = 'loop_bottle',
-        Dictionary = 'mp_player_intdrink',
-        Options = {
-            Flags = {
-                Move = true,
-            },
-            Props = {
-                {
-                    Bone = -28905,
-                    Name = 'bzzz_food_xmas_mulled_wine_a',
-                    Placement = {
-                        vector3(0.13, 0.03, 0.05),
-                        vector3(-110.0, -47.0, 7.0),
                     },
                 },
             },
