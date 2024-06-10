@@ -727,15 +727,11 @@ function initCloneEmote(data)
                 if #propList > 0 then
                     for i = 1, #propList do
                         local prop = propList[i]
-
                         lib.requestModel(prop.hash, 10000)
-
                         local object = CreateObject(prop.hash, clonePos.x, clonePos.y, clonePos.z, false, false, false)
                         SetEntityCollision(object, false, false)
                         AttachEntityToEntity(object, clone, GetPedBoneIndex(clone, prop.bone), prop.placement[1].x, prop.placement[1].y, prop.placement[1].z, prop.placement[2].x, prop.placement[2].y, prop.placement[2].z, true, true, false, true, 1, true)
-
                         cloneProps[#cloneProps + 1] = object
-
                         SetModelAsNoLongerNeeded(prop.hash)
                     end
                 end
